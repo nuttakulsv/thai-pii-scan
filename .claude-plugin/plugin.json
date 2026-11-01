@@ -1,0 +1,9 @@
+{
+  "name": "thai-pii-scan",
+  "version": "0.1.0",
+  "description": "Stops real Thai personal data (national ID numbers, mobile numbers, ID card laser codes, bank accounts) from ending up in code, fixtures, docs and commits. PDPA-minded data handling for coding agents.",
+  "author": { "name": "nuttakulsv" },
+  "homepage": "https://github.com/nuttakulsv/thai-pii-scan",
+  "license": "MIT",
+  "keywords": ["pdpa", "pii", "privacy", "thai", "secrets", "pre-commit", "data-protection"]
+}

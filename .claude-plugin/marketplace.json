@@ -1,0 +1,12 @@
+{
+  "name": "thai-pii-scan",
+  "owner": { "name": "nuttakulsv" },
+  "description": "กันเลขบัตรประชาชน เบอร์โทร และเลขบัญชีจริงไม่ให้หลุดเข้าโค้ดและ commit",
+  "plugins": [
+    {
+      "name": "thai-pii-scan",
+      "source": "./",
+      "description": "Stops real Thai personal data (national ID numbers, mobile numbers, ID card laser codes, bank accounts) from ending up in code, fixtures, docs and commits. PDPA-minded data handling for coding agents."
+    }
+  ]
+}

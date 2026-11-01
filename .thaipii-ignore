@@ -1,0 +1,2 @@
+# the scanner's own tests use realistic-looking fake numbers
+skills/thai-pii-scan/thaipii.py

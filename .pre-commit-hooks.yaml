@@ -1,0 +1,5 @@
+- id: thai-pii-scan
+  name: Thai personal data (ID numbers, phones, laser codes, bank accounts)
+  entry: skills/thai-pii-scan/thaipii.py
+  language: script
+  types: [text]

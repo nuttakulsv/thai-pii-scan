@@ -1,0 +1,13 @@
+{
+  "description": "Ask before the agent writes real-looking Thai ID numbers, phone numbers, laser codes or bank accounts into a file",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit|MultiEdit|NotebookEdit",
+        "hooks": [
+          { "type": "command", "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/skills/thai-pii-scan/thaipii.py\" --hook", "timeout": 10 }
+        ]
+      }
+    ]
+  }
+}
